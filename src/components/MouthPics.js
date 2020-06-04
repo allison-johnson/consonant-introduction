@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 import GridLayout from 'react-grid-layout'
 
 //Mouth Pics
-import LipPopper from './LipPopperResized.jpg'
-import Skinny from './SkinnyResized.jpg'
-import TipTapper from './TipTapperResized.jpg'
-import FatSound from './FatSoundResized.jpg'
-import TongueScraper from './TongueScraperResized.jpg'
-import FatPushedSound from './FatPushedSoundResized.jpg'
-import LipCooler from './LipCoolerResized.jpg'
-import TongueCooler from './TongueCoolerResized.jpg'
-import Nose from './NoseResized.jpg'
-import FrontLifter from './FrontLifterResized.jpg'
-import WindyPuff from './WindyPuffResized.jpg'
+import LipPopper from './images/mouthPics/LipPopperResized.jpg'
+import Skinny from './images/mouthPics/SkinnyResized.jpg'
+import TipTapper from './images/mouthPics/TipTapperResized.jpg'
+import FatSound from './images/mouthPics/FatSoundResized.jpg'
+import TongueScraper from './images/mouthPics/TongueScraperResized.jpg'
+import FatPushedSound from './images/mouthPics/FatPushedSoundResized.jpg'
+import LipCooler from './images/mouthPics/LipCoolerResized.jpg'
+import TongueCooler from './images/mouthPics/TongueCoolerResized.jpg'
+import Nose from './images/mouthPics/NoseResized.jpg'
+import FrontLifter from './images/mouthPics/FrontLifterResized.jpg'
+import WindyPuff from './images/mouthPics/WindyPuffResized.jpg'
 
 export class MouthPics extends Component {
   render() {
@@ -34,17 +34,17 @@ export class MouthPics extends Component {
     return (
       <div className="mouth-pics">
         <GridLayout className="layout" layout={layout} cols={12} rowHeight={30} width={1200}>
-          <div key="lip-popper" className="mouth-pic"><img src={LipPopper}></img></div>
-          <div key="skinny" className="mouth-pic"><img src={Skinny}></img></div>
-          <div key="tip-tapper" className="mouth-pic"><img src={TipTapper}></img></div>
-          <div key="fat-sound" className="mouth-pic"><img src={FatSound}></img></div>
-          <div key="tongue-scraper" className="mouth-pic"><img src={TongueScraper}></img></div>
-          <div key="fat-pushed-sound" className="mouth-pic"><img src={FatPushedSound}></img></div>
-          <div key="lip-cooler" className="mouth-pic"><img src={LipCooler}></img></div>
-          <div key="tongue-cooler" className="mouth-pic"><img src={TongueCooler}></img></div>
-          <div key="nose" className="mouth-pic"><img src={Nose}></img></div>
-          <div key="front-lifter" className="mouth-pic"><img src={FrontLifter}></img></div>
-          <div key="windy-puff" className="mouth-pic"><img src={WindyPuff}></img></div>
+          <div key="lip-popper" className="mouth-pic"><img src={LipPopper} alt="Lip Popper"></img></div>
+          <div key="skinny" className="mouth-pic"><img src={Skinny} alt="Skinny"></img></div>
+          <div key="tip-tapper" className="mouth-pic"><img src={TipTapper} alt="Tip Tapper"></img></div>
+          <div key="fat-sound" className="mouth-pic"><img src={FatSound} alt="Fat Sound"></img></div>
+          <div key="tongue-scraper" className="mouth-pic"><img src={TongueScraper} alt="Tongue Scraper"></img></div>
+          <div key="fat-pushed-sound" className="mouth-pic"><img src={FatPushedSound} alt="Fat Pushed Sound"></img></div>
+          <div key="lip-cooler" className="mouth-pic"><img src={LipCooler} alt="Lip Cooler"></img></div>
+          <div key="tongue-cooler" className="mouth-pic"><img src={TongueCooler} alt="Tongue Cooler"></img></div>
+          <div key="nose" className="mouth-pic"><img src={Nose} alt="Nose"></img></div>
+          <div key="front-lifter" className="mouth-pic"><img src={FrontLifter} alt="Front Lifter"></img></div>
+          <div key="windy-puff" className="mouth-pic"><img src={WindyPuff} alt="Windy Puff"></img></div>
         </GridLayout>
       </div>
     )
