@@ -12,7 +12,22 @@ code {
     monospace;
 }
 
-.mouth-pic {
+/* .mouth-pic {
   display: block;
   width: 100px;
+} */
+
+.consonant-grid {
+  border: 5px solid black;
+  margin: 10px;
+  background-color: turquoise;
+}
+
+.work-space {
+  border: 1px solid black;
+}
+
+.symbol img {
+  max-height: 100%;
+  width: auto;
 }

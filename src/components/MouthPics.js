@@ -14,26 +14,26 @@ import Nose from './images/mouthPics/NoseResized.jpg'
 import FrontLifter from './images/mouthPics/FrontLifterResized.jpg'
 import WindyPuff from './images/mouthPics/WindyPuffResized.jpg'
 
-export class MouthPics extends Component {
+class MouthPics extends Component {
   render() {
 
     const layout = [
         {i: 'lip-popper', x: 0, y: 0, w: 1, h: 2, static: true},
-        {i: 'skinny', x: 2, y: 0, w: 1, h: 2, static: true},
+        {i: 'skinny', x: 1, y: 0, w: 1, h: 2, static: true},
         {i: 'tip-tapper', x: 0, y: 3, w: 1, h: 2, static: true},
-        {i: 'fat-sound', x: 2, y: 3, w: 1, h: 2, static: true},
+        {i: 'fat-sound', x: 1, y: 3, w: 1, h: 2, static: true},
         {i: 'tongue-scraper', x: 0, y: 6, w: 1, h: 2, static: true},
-        {i: 'fat-pushed-sound', x: 2, y: 6, w: 1, h: 2, static: true},
+        {i: 'fat-pushed-sound', x: 1, y: 6, w: 1, h: 2, static: true},
         {i: 'lip-cooler', x: 0, y: 9, w: 1, h: 2, static: true},
-        {i: 'tongue-cooler', x: 2, y: 9, w: 1, h: 2, static: true},
+        {i: 'tongue-cooler', x: 1, y: 9, w: 1, h: 2, static: true},
         {i: 'nose', x: 0, y: 12, w: 1, h: 2, static: true},
-        {i: 'front-lifter', x: 2, y: 12, w: 1, h: 2, static: true},
+        {i: 'front-lifter', x: 1, y: 12, w: 1, h: 2, static: true},
         {i: 'windy-puff', x: 0, y: 15, w: 1, h: 2, static: true}
     ];
 
     return (
       <div className="mouth-pics">
-        <GridLayout className="layout" layout={layout} cols={12} rowHeight={30} width={1200}>
+        <GridLayout className="layout" layout={layout} cols={2} rowHeight={30} width={200}>
           <div key="lip-popper" className="mouth-pic"><img src={LipPopper} alt="Lip Popper"></img></div>
           <div key="skinny" className="mouth-pic"><img src={Skinny} alt="Skinny"></img></div>
           <div key="tip-tapper" className="mouth-pic"><img src={TipTapper} alt="Tip Tapper"></img></div>
